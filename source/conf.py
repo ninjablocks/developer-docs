@@ -39,6 +39,15 @@ if os.environ.get('DEBUG', '0') == '1':
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
+html_context = {
+  'display_github': True,
+  'github_user': 'ninjablocks',
+  'github_repo': 'developer-docs',
+  'github_version': 'master',
+  'conf_py_path': '/source/',
+  'source_suffix': '.rst',
+}
+
 # The suffix of source filenames.
 source_suffix = '.rst'
 
