@@ -43,7 +43,7 @@ html_context = {
   'display_github': True,
   'github_user': 'ninjablocks',
   'github_repo': 'developer-docs',
-  'github_version': 'master',
+  'github_version': os.environ.get('BUILDBOX_BRANCH', 'master'),
   'conf_py_path': '/source/',
   'source_suffix': '.rst',
 }
