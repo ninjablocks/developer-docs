@@ -2,6 +2,7 @@
 
 set -e
 
+rm -rf sphinx_ninja_theme
 git clone git@github.com:ninjablocks/sphinx_ninja_theme.git
 PYTHONPATH=`pwd`
 
