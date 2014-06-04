@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 git clone git@github.com:ninjablocks/sphinx_ninja_theme.git
 
 make html
