@@ -10,9 +10,10 @@ Thanks for taking part in the Ninja Sphere beta. Please note the code is in **he
 .. toctree::
   :maxdepth: 2
 
-  devkit/index
-  concepts/index
+  api/index
   howtos/index
+  concepts/index
+  devkit/index
   cloud_rest_v0/index
 
 .. todolist::

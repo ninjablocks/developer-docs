@@ -1,4 +1,4 @@
-Ninja Sphere Concepts
+Core Concepts
 =====================
 
 .. toctree::
