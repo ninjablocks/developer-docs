@@ -34,8 +34,8 @@ For Example:
 
   // OR...
 
-  Ninja.Sphere.things({type:'person'}).then(function(people) {
-    // Do something with all the people
+  Ninja.Sphere.things({type:'person',name:'Daniel'}).then(function(people) {
+    // Hi Dan
   });
 
 .. js:function:: .byType( type )
