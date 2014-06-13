@@ -9,6 +9,14 @@ Getting Started
 ---------
 Sphere applications are small pieces of logic designed to accomplish high level tasks. They will interact with things like lights, refidgerators, heaters, etc and have little exposure to the underlying devices.
 
+The first thing you will need to do is 
+
+::
+
+  npm install ninja-sphere
+
+Then create an file with one of the examples found at the bottom of this page in the same directory.
+
 
 Examples
 ---------
