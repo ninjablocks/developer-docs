@@ -12,7 +12,6 @@ Thanks for taking part in the Ninja Sphere beta. Please note the code is in **he
 
   libraries/index
   howtos/index
-  concepts/index
   devkit/index
   cloud_rest_v0/index
 
