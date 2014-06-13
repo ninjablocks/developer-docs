@@ -12,7 +12,7 @@ The first step in assembling your dev kit is attaching the 2.4 GHz aerial to the
 Burn the image
 ----
 
-The latest developer kit image can be downloaded from: `ubuntu_armhf_trusty_norelease_devkit-testing-2014-06-02_1915.img.gz <http://ninjablocks-nightly.s3.amazonaws.com/devkit/ubuntu_armhf_trusty_norelease_devkit-testing-2014-06-02_1915.img.gz>`_
+The latest developer kit image can be downloaded from: `ubuntu_armhf_trusty_norelease_devkit-testing-2014-06-13_1556.img.gz <https://s3-ap-southeast-2.amazonaws.com/ninjablocks-nightly/devkit/ubuntu_armhf_trusty_norelease_devkit-testing-2014-06-13_1556.img.gz>`_
 
 
 For a guide on how to burn this image to the supplied SD card, check out the :doc:`/howtos/burning_an_image` how-to.
