@@ -9,7 +9,7 @@ Thanks for taking part in the Ninja Sphere beta. Please note the code is in **he
 
 Just received your Developer Kit?
 --------
-[Click here to get started](http://docs.sphere.ninja/devkit/index.html).
+`Click here to get started <devkit/index.html>`_
 
 .. toctree::
   :maxdepth: 2
