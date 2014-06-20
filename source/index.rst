@@ -7,6 +7,10 @@ Welcome to Ninja Sphere's docs!
 ===============================
 Thanks for taking part in the Ninja Sphere beta. Please note the code is in **heavy development**, with bugfixes and new features being released daily. Please join us on the ninjablocks developer mailing list for all questions/comments.
 
+Just received your Developer Kit?
+--------
+[Click here to get started](http://docs.sphere.ninja/devkit/index.html).
+
 .. toctree::
   :maxdepth: 2
 
