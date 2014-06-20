@@ -45,3 +45,17 @@ Example 2. Listen to the on-off state of anything in the house
       console.log(thing.type,thing.name,'was turned',state?'on':'off');
     });
   });
+  
+Example 3. Toggle all the things in NinjaHQ on then off again every 5s
+~~~~~~~~~~~~~
+
+::
+
+  var Ninja = require('ninja-sphere');
+
+  Ninja.Sphere.rooms({name:'NinjaHQ'}).things().each(function(thing) {
+
+    setInterval(function(){
+    	thing.toggleOnOff()
+    },5000)
+  });
