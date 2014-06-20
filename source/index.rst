@@ -10,3 +10,11 @@ Thanks for taking part in the Ninja Sphere beta. Please note the code is in **he
 Just received your Developer Kit?
 --------
 `Click here to get started <devkit/index.html>`_
+
+.. toctree::
+  :maxdepth: 2
+
+  libraries/index
+  howtos/index
+  devkit/index
+  cloud_rest_v0/index
