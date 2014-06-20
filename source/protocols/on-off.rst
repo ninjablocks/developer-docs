@@ -1,9 +1,9 @@
-OnOff
+on-off
 ===========
 
 **Methods**
 
-OnOff.turnOn(cb, cb.err, cb.result)
+.turnOn(cb, cb.err, cb.result)
 -----------------------------------
 
 Turns the device on
@@ -16,7 +16,7 @@ Turns the device on
 
 **cb.result**: *undefined*, The new state
 
-OnOff.turnOff(cb, cb.err, cb.result)
+.turnOff(cb, cb.err, cb.result)
 ------------------------------------
 
 Turns the device off
@@ -29,7 +29,7 @@ Turns the device off
 
 **cb.result**: *undefined*, The new state
 
-OnOff.setOnOff(state, cb, cb.err, cb.result)
+.setOnOff(state, cb, cb.err, cb.result)
 --------------------------------------------
 
 Turns the device on or off
@@ -44,7 +44,7 @@ Turns the device on or off
 
 **cb.result**: *undefined*, The new state
 
-OnOff.toggleOnOff(cb, cb.err, cb.result)
+.toggleOnOff(cb, cb.err, cb.result)
 ----------------------------------------
 
 Toggles the on/off state
