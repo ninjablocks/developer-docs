@@ -18,5 +18,3 @@ Just received your Developer Kit?
   howtos/index
   devkit/index
   cloud_rest_v0/index
-
-.. todolist::
