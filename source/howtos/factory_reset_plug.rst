@@ -1,4 +1,4 @@
-Factory Resetting a Ninja Smart Plug
+Factory Resetting a Ninja Smart Power Socket
 ====
 
 
