@@ -7,7 +7,7 @@ The first step in interacting with your developer kit is locating its IP address
 
 ::
 
-  $ ping ninjasphere
+  $ ping ninjasphere.local
 
 If you get a response you can use that hostname in subsequent steps.
 
