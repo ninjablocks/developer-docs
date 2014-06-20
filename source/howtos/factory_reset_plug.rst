@@ -22,6 +22,7 @@ Step 4
 Visit http://ninjasphere.local/#/things and your socket should show up. Alternatively, run the following on your sphere to see the logs:
 
 ::
+
 tail -f /var/log/ninjasphere.log
 
 Troubleshooting
