@@ -17,6 +17,7 @@ Just received your Developer Kit?
   libraries/index
   howtos/index
   devkit/index
+  protocols/index
   cloud_rest_v0/index
 
 .. todolist::
