@@ -17,7 +17,7 @@ Update to the latest Ninja Sphere release:
 
 ::
 
-	apt-get udpate
+	apt-get update
 	apt-get dist-upgrade
 
 Step 3
