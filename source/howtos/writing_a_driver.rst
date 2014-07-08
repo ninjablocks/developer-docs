@@ -107,7 +107,9 @@ Ensure the spheramid service is running: ``sudo start spheramid``
 
 In one terminal window, run: ``mosquitto_sub -t \'$device/+/+/+/keyboard/event/state\' -v``. This will subscribe to all messages from all keyboards in the system.
 
-In another terminal window, navigate to your driver and run it: ``cd /opt/ninjablocks/drivers/driver-keyboard && node run.js``. Once it fires up, type in a few characters. If its all working happily, you should see a message like this: ``$device/a2f748b74a/channel/cc57baaecc/keyboard/event/state {"params":[{"value":"e","shift":false,"ctrl":false},"keyboard"],"time":1404801129029,"jsonrpc":"2.0"}``.
+In another terminal window, navigate to your driver and run it: ``cd /opt/ninjablocks/drivers/driver-keyboard && node run.js``. Once it fires up, type in a few characters. If its all working happily, you should see a message like this: ::
+
+  $device/a2f748b74a/channel/cc57baaecc/keyboard/event/state {"params":[{"value":"e","shift":false,"ctrl":false},"keyboard"],"time":1404801129029,"jsonrpc":"2.0"}``.
 
 
 
