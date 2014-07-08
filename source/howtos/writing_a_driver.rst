@@ -102,3 +102,16 @@ The first line of interest is ``self.announceChannel('keyboard');``. This announ
 
 Testing
 ---------
+
+Ensure the spheramid service is running: ``sudo start spheramid``
+
+In one terminal window, run: ``mosquitto_sub -t \'$device/+/+/+/keyboard/event/state\' -v``. This will subscribe to all messages from all keyboards in the system.
+
+In another terminal window, navigate to your driver and run it: ``cd /opt/ninjablocks/drivers/driver-keyboard && node run.js``. Once it fires up, type in a few characters. If its all working happily, you should see a message like this: **$device/a2f748b74a/channel/cc57baaecc/keyboard/event/state {"params":[{"value":"e","shift":false,"ctrl":false},"keyboard"],"time":1404801129029,"jsonrpc":"2.0"}**.
+
+
+Troubleshooting
+---------
+If it doesn't work, ensure your spheramid service is up and running by tailing the sphere logs: ``tail -f /var/log/ninjasphere.log``. This will give you an idea of the state of the system.
+
+You can only start the driver once the spheramid service has finished its start up process. Restart the spheramid service: ``restart spheramid``, wait a  minute or so, and start the driver again ``node run.js``.
