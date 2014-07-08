@@ -22,3 +22,4 @@ Table of contents
   devkit/index
   protocols/index
   cloud_rest_v0/index
+  blockquickstarts/index
