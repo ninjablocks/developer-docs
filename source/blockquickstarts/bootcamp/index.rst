@@ -35,7 +35,7 @@ Send Commands to Devices
 
 Learn how to set the value of a device with the ‘actuate’ method.
 
-  :ref:`Commence the lesson <secondcommands>` 
+  :ref:`Commence the lesson <sendcommands>` 
 
 Deploy a basic Web App
 ---------

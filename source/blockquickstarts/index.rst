@@ -6,3 +6,6 @@ Ninja Blocks Quickstarts
 
   about/index
   bootcamp/index
+  applications/index
+  drivers/index
+  devices/index

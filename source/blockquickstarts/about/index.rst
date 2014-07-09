@@ -35,6 +35,7 @@ Become an expert toolsmith in this series of quickstarts. You will learn how to 
 
 Video
 ---------
+
 .. raw:: html
 
-	<iframe width="640" height="360" src="https://www.youtube.com/watch?v=79ZWiV0iDSs" frameborder="0" allowfullscreen></iframe>
+	<iframe width="640" height="360" src="//www.youtube.com/embed/79ZWiV0iDSs" frameborder="0" allowfullscreen></iframe>
