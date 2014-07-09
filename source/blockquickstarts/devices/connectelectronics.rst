@@ -1,4 +1,4 @@
-.. _connectelectronics
+..  _connectelectronics:
 
 Connecting Electronics
 =========
