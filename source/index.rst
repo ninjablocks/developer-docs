@@ -23,3 +23,8 @@ Table of contents
   protocols/index
   cloud_rest_v0/index
   blockquickstarts/index
+  compatibledevices/index
+  newapp/index
+  ninjablocklibraries/index
+  opensource/index
+  helpfullinks/index
