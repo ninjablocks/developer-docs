@@ -10,9 +10,9 @@ Recall that in :ref:`Write Drivers <writedrivers>` you learned how to create new
 
 There are a number of contexts within which we may implement a Device:
 
-	1. On a development machine- i.e. a ‘full’ computer; most likely the computer you used to create a Driver in :ref:`Write Drivers <writedrivers>`.
+	1. On a development machine- i.e. a ‘full’ computer; most likely the computer you used to create a Driver in :ref:`Write Drivers <writedrivers>`
 	2. On a Ninja Block (BeagleBone)- you can do this by ssh-ing into the Block and creating Drivers within the /opt/ninja directory.
-	3 . On a Raspberry Pi running the Ninja Blocks image, you can do this by ssh-ing into the RPi and creating Drivers within the /opt/ninja directory.
+	3. On a Raspberry Pi running the Ninja Blocks image, you can do this by ssh-ing into the RPi and creating Drivers within the /opt/ninja directory.
 
 In any of these contexts, the general approach is the same. We implement functions within lib/device.js and have it perform whatever tasks are required to interface with the hardware/local services we are interested in. Note also that there’s nothing stopping us from working with HTTP verbs directly, analogous to what we did in :ref:`Create REST Devices <createrestdevices>`. In this quickstart we’ll focus on supporting hardware.
 
