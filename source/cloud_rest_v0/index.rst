@@ -1,5 +1,5 @@
-Legacy Cloud Rest API (v0)
-==========================
+Legacy "Blocks" Cloud Rest API (v0)
+===================================
 
 Contents:
 
