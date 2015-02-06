@@ -18,8 +18,9 @@ Table of contents
   :maxdepth: 2
 
   introduction/index
-  hardwareguides/index
   sphereappguides/index
   deviceconnectorguides/index
   referencedocs/index
+  
+  hardwareguides/index
   legacy/index
