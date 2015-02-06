@@ -1,4 +1,4 @@
-Legacy Ninja Blocks
+Ninja Blocks
 ====================
 
 .. toctree::
