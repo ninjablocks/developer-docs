@@ -1,5 +1,5 @@
 Registering a New App
-==========
+========================
 
 1. Go to the settings tab by clicking on the settings icon.
 
