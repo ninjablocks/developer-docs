@@ -6,7 +6,7 @@ Enable SSH
 
 1.  Connect to your sphere using USB
 ::
-	screen /dev/cu.usbmodemfd121
+	screen /dev/cu.usbmodem*
 
 2.  Use default username and password
 ::
@@ -16,7 +16,7 @@ Enable SSH
 3.  Install ssh for easier access
 ::
 
-  bash -c "apt-get update; apt-get install -y openssh-server"
+  sudo with-rw bash && bash -c "apt-get update; apt-get install -y openssh-server"
 
 
 Confirm Directory Structure
@@ -28,7 +28,7 @@ Confirm Directory Structure
 
 ::
 
-	mkdir -p /data/sphere/user-autostart/{drivers,apps}
+	mkdir -p /data/sphere/user-autostart/drivers && mkdir -p /data/sphere/user-autostart/apps
 	chown -R ninja.ninja /data/sphere
 
 
