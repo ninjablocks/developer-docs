@@ -28,8 +28,7 @@ Confirm Directory Structure
 
 ::
 
-	mkdir -p /data/sphere/user-autostart/drivers && mkdir -p /data/sphere/user-autostart/apps
-	chown -R ninja.ninja /data/sphere
+	mkdir -p /data/sphere/user-autostart/{drivers,apps} && chown -R ninja.ninja /data/sphere
 
 
 Your Sphere is now configured and you can load custom applications
