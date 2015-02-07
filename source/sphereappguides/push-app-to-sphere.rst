@@ -1,17 +1,23 @@
 Push App to Sphere
 ==============================
-1. Download new application
-2. Place application directory in /opt/ninjablocks/autostart/apps/
-3. Directory name, binary name, and json files should all be the same
-4. Below are example file names for a new application called app-go-foobar
 
+1. Create a new directory in /data/sphere/user-autostart/apps/ for your application
+::
+
+	mkdir -p /data/sphere/user-autostart/apps/app-go-foobar
+
+2. Directory name, binary name, and json files should all be the same
 ::
 
 	Directory: app-go-foobar
-	Binary: app-go-foobar.bin
+	Binary: app-go-foobar
 	JSON: app-go-foobar.json
 
-5. Example Applications
+3. Build for ARM and SCP your binary and package.json files to the new app directory
+::
 
-	* `Sphere Go LED Controller <https://github.com/ninjasphere/sphere-go-led-controller>`_
-	* `Ninja Sphere GO library <https://github.com/ninjasphere/go-ninja>`_
+	GOARCH=arm GOOS=linux go build
+	scp app-go-foobar ninja@ninjasphere.local:/data/sphere/user-autostart/apps/app-go-foobar
+	scp package.json ninja@ninjasphere.local:/data/sphere/user-autostart/apps/app-go-foobar/package.json
+
+	

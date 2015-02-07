@@ -1,2 +1,0 @@
-Setting Up Your Device
-=========================

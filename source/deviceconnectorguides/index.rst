@@ -4,6 +4,6 @@ Device Connector Developer Guides
 .. toctree::
   :maxdepth: 2
 
-  deviceconnector-overview
-  deviceconnector-implementation
+  hello-world-driver
+  push-deviceconnector-to-sphere
   publish-deviceconnector
