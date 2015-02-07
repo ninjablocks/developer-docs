@@ -21,3 +21,7 @@ Push App to Sphere
 	scp package.json ninja@ninjasphere.local:/data/sphere/user-autostart/apps/app-go-foobar/package.json
 
 	
+4. Reboot the Sphere or run the following command to start the new application
+::
+
+	nservice app-go-foobar start
