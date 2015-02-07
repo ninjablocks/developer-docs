@@ -6,7 +6,7 @@ Hello World Driver
 	* `Ninja Sphere Go library <https://github.com/ninjasphere/go-ninja>`_
 
 
-6. Example Drivers
+2. Example Drivers
 
 	* `Driver for Philips Hue <https://github.com/ninjasphere/driver-go-hue>`_
 	* `Driver for Samsung TV over IP <https://github.com/ninjasphere/driver-samsung-tv>`_
