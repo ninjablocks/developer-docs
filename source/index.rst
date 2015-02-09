@@ -21,6 +21,7 @@ Table of contents
   sphereappguides/index
   deviceconnectorguides/index
   referencedocs/index
+  apireference/index
   
   hardwareguides/index
   legacy/index
