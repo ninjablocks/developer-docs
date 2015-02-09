@@ -2,10 +2,12 @@ Developing on Your Sphere
 =========================
 
 Enable SSH
-~~~~~~~~~~~~
+~~~~~~~~~~
 
 1.  Connect to your sphere using USB
-::
+
+.. code-block:: bash
+
 	# OS X
 	screen /dev/cu.usbmodem*
 	# Linux
@@ -23,7 +25,7 @@ Enable SSH
 
 
 Confirm Directory Structure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1.  Connect to your sphere using USB or SSH
 
@@ -35,3 +37,4 @@ Confirm Directory Structure
 
 
 Your Sphere is now configured and you can load custom applications
+
