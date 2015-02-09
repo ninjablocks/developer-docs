@@ -9,4 +9,5 @@ This section contains information relating to the legacy Ninja Blocks platform a
   blockquickstarts/index
   ninjablocklibraries/index
   helpfullinks/index
+  opensource/index
   cloud_rest_v0/index
