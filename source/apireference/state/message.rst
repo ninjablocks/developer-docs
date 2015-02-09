@@ -3,3 +3,9 @@
 Message to be displayed
 =======================
 
+**message** string
+
+**image** string
+
+**title** string
+
