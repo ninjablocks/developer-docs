@@ -5,7 +5,7 @@
 
 Welcome to Ninja Sphere's docs!
 ===============================
-Thanks for being a part of the the Ninja Sphere Developer Community. Please note the code is in **heavy development**, with bugfixes and new features being released weekly. Please join us on the ninjablocks developer mailing list for all questions/comments.
+Thanks for being a part of the the Ninja Sphere Developer Community. Please note the code is in **heavy development**, with bugfixes and new features being released weekly. Please join us on the `forums <https://discuss.ninjablocks.com/>`_ for all questions/comments.
 
 Just received your Ninja Sphere?
 ----------------------------------
