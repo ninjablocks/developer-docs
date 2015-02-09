@@ -6,7 +6,10 @@ Enable SSH
 
 1.  Connect to your sphere using USB
 ::
+	# OS X
 	screen /dev/cu.usbmodem*
+	# Linux
+	screen /dev/ttyACM0
 
 2.  Use default username and password
 ::

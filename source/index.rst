@@ -9,7 +9,7 @@ Thanks for being a part of the the Ninja Sphere Developer Community. Please note
 
 Just received your Ninja Sphere?
 ----------------------------------
-If you are not a developer and want more information about setting up your new Ninja Sphere `Click here to get started <http://welcome.ninjablocks.com>`_
+If you are not a developer and want more information about setting up your new Ninja Sphere `Click here to get started <http://welcome.ninja>`_
 
 Table of contents
 -------------------
@@ -21,6 +21,7 @@ Table of contents
   sphereappguides/index
   deviceconnectorguides/index
   referencedocs/index
+  apireference/index
   
   hardwareguides/index
   legacy/index
