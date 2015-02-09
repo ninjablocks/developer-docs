@@ -20,6 +20,8 @@ Once code lands in an official *master branch*, it is immediately built on a CI 
 
 Changing release channel can be done by editing ``/etc/apt/sources.list.d/ninjablocks.list`` (run ``sudo with-rw bash`` to get a shell that can write to your Sphere's rootfs). Remember that **changing back to stable requires a factory reset** since it is hard to undo changes that are designed to only move forward.
 
+Additionally, to find out which commits in our Git repositories are in each branch, we have automagically generated branches in each client repository called *stable, staging, testing, unstable* which are synced to the git commit on which the latest package in that release channel was created.
+
 stable
 ------
 
