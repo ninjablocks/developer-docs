@@ -1,12 +1,14 @@
-Concepts
-==============
+Core Concepts
+=============
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
 
-  core-concepts
-  thing
-  room
   device
   channel
+  driver
+  thing
+  homecloud
   protocol
+  cloud
+  mqtt

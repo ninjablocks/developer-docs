@@ -24,4 +24,5 @@ Table of contents
   apireference/index
   
   hardwareguides/index
+  misc/index
   legacy/index
