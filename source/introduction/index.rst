@@ -11,7 +11,7 @@ Enable SSH
 2.  Use default username and password
 ::
 	username: ninja
-	password: tmppwd
+	password: temppwd
 
 3.  Install ssh for easier access
 ::

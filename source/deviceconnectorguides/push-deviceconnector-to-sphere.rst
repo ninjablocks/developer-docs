@@ -19,7 +19,7 @@ Push Device Connector To Sphere
 ::
 
 	GOARCH=arm GOOS=linux go build
-	scp driver-go-foobar ninja@ninjasphere.local:/data/sphere/user-autostart/drivers/driver-go-foobar
+	scp driver-go-foobar ninja@ninjasphere.local:/data/sphere/user-autostart/drivers/driver-go-foobar/driver-go-foobar
 	scp package.json ninja@ninjasphere.local:/data/sphere/user-autostart/drivers/driver-go-foobar/package.json
 
 6. Reboot the Sphere or run the following command to start the new driver

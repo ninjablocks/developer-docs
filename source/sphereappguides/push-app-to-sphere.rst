@@ -17,7 +17,7 @@ Push App to Sphere
 ::
 
 	GOARCH=arm GOOS=linux go build
-	scp app-go-foobar ninja@ninjasphere.local:/data/sphere/user-autostart/apps/app-go-foobar
+	scp app-go-foobar ninja@ninjasphere.local:/data/sphere/user-autostart/apps/app-go-foobar/app-go-foobar
 	scp package.json ninja@ninjasphere.local:/data/sphere/user-autostart/apps/app-go-foobar/package.json
 
 	
