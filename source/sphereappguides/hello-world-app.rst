@@ -8,7 +8,9 @@ Hello World Application
 2. Below are the basic files needed to run your application on the NinjaSphere
 
 main.go
-::
+
+.. code-block:: go
+
 	package main
 	
 	import (
@@ -52,7 +54,9 @@ main.go
 	}
 
 package.json
-::
+
+.. code-block:: json
+
 	{
 	  "id": "unique.package.name",
 	  "name": "hello-world",
@@ -70,7 +74,9 @@ package.json
 
 
 model.go
-::
+
+.. code-block:: go
+
 	// This is the configuartion for the hello-world app.
 	package model
 
@@ -90,7 +96,9 @@ model.go
 
 
 version.go
-::
+
+.. code-block:: go
+
 	package main
 
 	// Version describes the version number of this package.
