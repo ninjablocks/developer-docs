@@ -13,7 +13,7 @@ Push Device Connector To Sphere
 
 	Directory: driver-foobar
 	Binary: driver-foobar
-	JSON: package.json.json
+	JSON: package.json
 
 5. Build for ARM and SCP your binary and package.json files to the new driver directory
 ::
