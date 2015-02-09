@@ -3,9 +3,9 @@
 Room
 ====
 
-**type** {u'type': u'string'}
+**type** string
 
-**id** {u'$ref': u'/common#/definitions/uuid'}
+**id** common.uuid
 
-**name** {u'type': u'string'}
+**name** string
 

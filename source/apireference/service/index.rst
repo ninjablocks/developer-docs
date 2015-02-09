@@ -15,7 +15,6 @@ Contents:
    room-model
    scheduler
    site-model
-   test-service
    thing-model
    updates
    webhooks

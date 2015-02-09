@@ -39,3 +39,8 @@ stop()
 
 Stops the app.
 
+.. _apireference_service_app_definitions:
+
+Definitions
+-----------
+

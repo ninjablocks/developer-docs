@@ -5,19 +5,19 @@ Site
 
 TODO
 
-**timeZoneId** {u'type': u'string'}
+**timeZoneId** string
 
-**timeZoneName** {u'type': u'string'}
+**timeZoneName** string
 
-**name** {u'type': u'string'}
+**name** string
 
-**longitude** {u'type': u'number'}
+**longitude** number
 
-**latitude** {u'type': u'number'}
+**latitude** number
 
-**type** {u'type': u'string'}
+**type** string
 
-**id** {u'$ref': u'/common#/definitions/uuid'}
+**id** common.uuid
 
-**timeZoneOffset** {u'type': u'number'}
+**timeZoneOffset** number
 

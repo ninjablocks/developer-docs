@@ -5,3 +5,9 @@ Channel
 
 TODO
 
+**device** device.device#
+
+**protocol** string
+
+**id** string
+

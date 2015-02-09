@@ -5,13 +5,13 @@ Thing
 
 TODO
 
-**device** {u'oneOf': [{u'$ref': u'/model/device#'}, {u'type': u'null'}]}
+**device** unknown
 
-**location** {u'$ref': u'/common#/definitions/uuid'}
+**location** common.uuid
 
-**type** {u'type': u'string'}
+**type** string
 
-**id** {u'$ref': u'/common#/definitions/uuid'}
+**id** common.uuid
 
-**name** {u'type': u'string'}
+**name** string
 

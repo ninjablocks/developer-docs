@@ -83,3 +83,8 @@ Answer the status of the specified task
 
 **id** stringThe id of the task to be fetched.
 
+.. _apireference_service_scheduler_definitions:
+
+Definitions
+-----------
+

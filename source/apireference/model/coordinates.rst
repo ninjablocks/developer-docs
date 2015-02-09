@@ -5,13 +5,13 @@ Coordinates
 
 Geographical coordinates - subset of http://dev.w3.org/geo/api/spec-source.html#coordinates_interface
 
-**latitude** {u'type': u'number'}
+**latitude** number
 
-**altitude-accuracy** {u'type': u'number'}
+**altitude-accuracy** number
 
-**altitude** {u'type': u'number'}
+**altitude** number
 
-**longitude** {u'type': u'number'}
+**longitude** number
 
-**accuracy** {u'type': u'number'}
+**accuracy** number
 

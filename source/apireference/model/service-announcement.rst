@@ -3,13 +3,13 @@
 Service Announcement
 ====================
 
-**topic** {u'type': u'string'}
+**topic** string
 
-**deprecated** {u'type': u'boolean'}
+**deprecated** boolean
 
-**supportedMethods** {u'items': {u'type': u'string'}, u'type': u'array'}
+**supportedMethods** []string
 
-**supportedEvents** {u'items': {u'type': u'string'}, u'type': u'array'}
+**supportedEvents** []string
 
-**schema** {u'type': u'string'}
+**schema** string
 

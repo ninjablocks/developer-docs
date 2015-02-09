@@ -19,7 +19,7 @@ Gets the updatable packages
 
 **Return Value**
 
-:ref:`.updatable-packages <apireference_>`The list of packages to be updated/installed
+:ref:`updatable-packages <apireference_service_updates>`The list of packages to be updated/installed
 
 .. _apireference_service_updates_methods_getProgress:
 
@@ -30,7 +30,7 @@ Gets the progress of the current (or previous) update.
 
 **Return Value**
 
-:ref:`.progress <apireference_>`
+:ref:`progress <apireference_service_updates>`
 
 .. _apireference_service_updates_methods_start:
 
@@ -42,4 +42,21 @@ Start the update process
 **Return Value**
 
 objectThe list of packages to be updated/installed
+
+.. _apireference_service_updates_definitions:
+
+Definitions
+-----------
+
+.. _apireference_service_updates_definitions_progress:
+
+progress
+~~~~~~~~
+
+.. _apireference_service_updates_definitions_updatable-packages:
+
+updatable-packages
+~~~~~~~~~~~~~~~~~~
+
+*array* 
 

@@ -19,7 +19,7 @@ Create a new device using the provided configuration.
 
 **Parameters**
 
-**driverData** :ref:`.device-driver-data <apireference_>`
+**driverData** :ref:`device-driver-data <apireference_service_driver>`
 
 **announcementData** objectAnnouncement data. This gets added to the device announcement.
 
@@ -50,7 +50,7 @@ Starts the driver
 
 **Parameters**
 
-**config** :ref:`.config <apireference_>`Driver configuration object
+**config** :ref:`config <apireference_service_driver>`Driver configuration object
 
 .. _apireference_service_driver_methods_startDevice:
 
@@ -84,4 +84,26 @@ stop()
 ~~~~~~
 
 Stops the driver, and any devices it has created since starting.
+
+.. _apireference_service_driver_definitions:
+
+Definitions
+-----------
+
+.. _apireference_service_driver_definitions_config:
+
+config
+~~~~~~
+
+.. _apireference_service_driver_definitions_device-announcement:
+
+device-announcement
+~~~~~~~~~~~~~~~~~~~
+
+.. _apireference_service_driver_definitions_device-driver-data:
+
+device-driver-data
+~~~~~~~~~~~~~~~~~~
+
+*object* Whatever is needed by the driver in order to create the device
 

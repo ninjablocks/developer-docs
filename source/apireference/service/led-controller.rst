@@ -95,7 +95,7 @@ Updates a list of pixels on the drawing screen.
 
 **Parameters**
 
-**updates** []{u'items': {u'items': {u'minimum': 0, u'type': u'number', u'maximum': 255}, u'type': u'array', u'description': u'Each update is []uint8 [x,y,r,g,b]', u'maxItems': 5}, u'type': u'array'}
+**updates** [][]number
 
 .. _apireference_service_led-controller_methods_enableControl:
 
