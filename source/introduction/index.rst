@@ -1,5 +1,5 @@
-Configure Your Sphere
-======================
+Developing on Your Sphere
+=========================
 
 Enable SSH
 ~~~~~~~~~~~~
