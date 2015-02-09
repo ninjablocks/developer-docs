@@ -23,7 +23,7 @@ Saves a new Room
 
 **Return Value**
 
-:ref:`room.id <apireference_model_room>`
+:ref:`room.id <apireference_model_room>` 
 
 .. _apireference_service_room-model_methods_delete:
 
@@ -38,7 +38,7 @@ Deletes a Room
 
 **Return Value**
 
-:ref:`room.id <apireference_model_room>`
+:ref:`room.id <apireference_model_room>` 
 
 .. _apireference_service_room-model_methods_fetch:
 
@@ -53,7 +53,7 @@ Retrieves a Room
 
 **Return Value**
 
-:ref:`room <apireference_model_room>`
+:ref:`room <apireference_model_room>` 
 
 .. _apireference_service_room-model_methods_fetchAll:
 
@@ -64,7 +64,7 @@ Retrieves all Rooms
 
 **Return Value**
 
-:ref:`[]room <apireference_model_room>`
+:ref:`[]room <apireference_model_room>` 
 
 .. _apireference_service_room-model_methods_fetchByExample:
 
@@ -79,7 +79,7 @@ Retrieves all Things that match the example object
 
 **Return Value**
 
-:ref:`[]room <apireference_model_room>`
+:ref:`[]room <apireference_model_room>` 
 
 .. _apireference_service_room-model_methods_fetchRoomThingIds:
 
@@ -94,7 +94,7 @@ Retrieves the ids of all Things in a Room
 
 **Return Value**
 
-:ref:`[]thing.id <apireference_model_thing>`
+:ref:`[]thing.id <apireference_model_thing>` 
 
 .. _apireference_service_room-model_methods_moveThing:
 
@@ -113,7 +113,7 @@ Moves a Thing from one Room to another Room
 
 **Return Value**
 
-nullTODO: Success value?
+null TODO: Success value?
 
 .. _apireference_service_room-model_methods_removeThing:
 
@@ -130,7 +130,7 @@ Removes a Thing from a Room
 
 **Return Value**
 
-nullTODO: Success value?
+null TODO: Success value?
 
 .. _apireference_service_room-model_methods_thingsByType:
 
@@ -147,5 +147,5 @@ Retrieves all Things of a certain thing type from a room
 
 **Return Value**
 
-:ref:`[]thing <apireference_model_thing>`
+:ref:`[]thing <apireference_model_thing>` 
 

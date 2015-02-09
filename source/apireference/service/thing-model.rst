@@ -23,7 +23,7 @@ Saves a new Thing
 
 **Return Value**
 
-:ref:`thing.id <apireference_model_thing>`
+:ref:`thing.id <apireference_model_thing>` 
 
 .. _apireference_service_thing-model_methods_delete:
 
@@ -38,7 +38,7 @@ Deletes a Thing
 
 **Return Value**
 
-:ref:`thing.id <apireference_model_thing>`
+:ref:`thing.id <apireference_model_thing>` 
 
 .. _apireference_service_thing-model_methods_fetch:
 
@@ -53,7 +53,7 @@ Retrieves a Thing by id
 
 **Return Value**
 
-:ref:`thing <apireference_model_thing>`
+:ref:`thing <apireference_model_thing>` 
 
 .. _apireference_service_thing-model_methods_fetchAll:
 
@@ -64,7 +64,7 @@ Retrieves all Things
 
 **Return Value**
 
-:ref:`[]thing <apireference_model_thing>`
+:ref:`[]thing <apireference_model_thing>` 
 
 .. _apireference_service_thing-model_methods_fetchByDeviceId:
 
@@ -79,7 +79,7 @@ Retrieves a Thing by device id
 
 **Return Value**
 
-:ref:`thing <apireference_model_thing>`
+:ref:`thing <apireference_model_thing>` 
 
 .. _apireference_service_thing-model_methods_fetchByExample:
 
@@ -94,7 +94,7 @@ Retrieves all Things that match the example object
 
 **Return Value**
 
-:ref:`[]thing <apireference_model_thing>`
+:ref:`[]thing <apireference_model_thing>` 
 
 .. _apireference_service_thing-model_methods_fetchByType:
 
@@ -109,7 +109,7 @@ Fetch a list of things by type
 
 **Return Value**
 
-:ref:`[]thing <apireference_model_thing>`
+:ref:`[]thing <apireference_model_thing>` 
 
 .. _apireference_service_thing-model_methods_setLocation:
 
@@ -126,5 +126,5 @@ Updates the location of a Thing
 
 **Return Value**
 
-:ref:`thing.id <apireference_model_thing>`
+:ref:`thing.id <apireference_model_thing>` 
 

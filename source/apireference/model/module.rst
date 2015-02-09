@@ -7,11 +7,11 @@ Module (aka Driver)
 
 **description** string
 
-**contributors** []package.json.person
+**contributors** :ref:`[]package.json.person <apireference_package.json>`
 
-**author** package.json.person
+**author** :ref:`package.json.person <apireference_package.json>`
 
-**version** package.json.semver
+**version** :ref:`package.json.semver <apireference_package.json>`
 
 **id** string
 

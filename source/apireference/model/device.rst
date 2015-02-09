@@ -11,9 +11,9 @@ Device
 
 **naturalId** string
 
-**channels** []channel.channel#
+**channels** :ref:`[]channel.channel# <apireference_model_channel>`
 
-**thing** common.uuid
+**thing** :ref:`common.uuid <apireference_common>`
 
-**id** id
+**id** :ref:`id <apireference_model_device>`
 

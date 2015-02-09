@@ -23,7 +23,7 @@ Creates a new web hook
 
 **Return Value**
 
-:ref:`common.ninja-id <apireference_common>`
+:ref:`common.ninja-id <apireference_common>` 
 
 .. _apireference_service_webhooks_definitions:
 

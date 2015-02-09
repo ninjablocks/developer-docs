@@ -5,7 +5,7 @@ Room
 
 **type** string
 
-**id** common.uuid
+**id** :ref:`common.uuid <apireference_common>`
 
 **name** string
 

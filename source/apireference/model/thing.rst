@@ -7,11 +7,11 @@ TODO
 
 **device** unknown
 
-**location** common.uuid
+**location** :ref:`common.uuid <apireference_common>`
 
 **type** string
 
-**id** common.uuid
+**id** :ref:`common.uuid <apireference_common>`
 
 **name** string
 

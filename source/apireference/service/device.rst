@@ -21,7 +21,7 @@ Sets the name of the device.
 
 **Return Value**
 
-:ref:`device-name <apireference_service_device>`The name that was saved to the device. If null, it is not possible to store the name on the device.
+:ref:`device-name <apireference_service_device>` The name that was saved to the device. If null, it is not possible to store the name on the device.
 
 .. _apireference_service_device_methods_traceroute:
 
@@ -32,7 +32,7 @@ Traces the path to the device. Depending on the device, this may stop at the dri
 
 **Return Value**
 
-object
+object 
 
 .. _apireference_service_device_definitions:
 

@@ -5,7 +5,7 @@ Channel
 
 TODO
 
-**device** device.device#
+**device** :ref:`device.device# <apireference_model_device>`
 
 **protocol** string
 

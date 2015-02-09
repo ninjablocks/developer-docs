@@ -17,7 +17,7 @@ TODO
 
 **type** string
 
-**id** common.uuid
+**id** :ref:`common.uuid <apireference_common>`
 
 **timeZoneOffset** number
 

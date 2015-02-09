@@ -76,7 +76,7 @@ Put the driver into pairing mode.
 
 **Return Value**
 
-numberThe actual number of seconds the driver will be in pairing mode for.
+number The actual number of seconds the driver will be in pairing mode for.
 
 .. _apireference_service_driver_methods_stop:
 

@@ -23,7 +23,7 @@ Saves a new Site
 
 **Return Value**
 
-:ref:`site.id <apireference_model_site>`
+:ref:`site.id <apireference_model_site>` 
 
 .. _apireference_service_site-model_methods_delete:
 
@@ -38,7 +38,7 @@ Deletes a Site
 
 **Return Value**
 
-:ref:`site.id <apireference_model_site>`
+:ref:`site.id <apireference_model_site>` 
 
 .. _apireference_service_site-model_methods_fetch:
 
@@ -53,7 +53,7 @@ Retrieves a Site by id
 
 **Return Value**
 
-:ref:`site <apireference_model_site>`
+:ref:`site <apireference_model_site>` 
 
 .. _apireference_service_site-model_methods_fetchAll:
 
@@ -64,5 +64,5 @@ Retrieves all Sites
 
 **Return Value**
 
-:ref:`[]site <apireference_model_site>`
+:ref:`[]site <apireference_model_site>` 
 

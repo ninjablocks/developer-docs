@@ -27,5 +27,5 @@ Starts calibrating a room using the given device id (BLE MAC?)
 
 **Return Value**
 
-null
+null 
 

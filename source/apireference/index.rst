@@ -42,6 +42,8 @@ App & Driver Interfaces
 
   model/index
   service/index
+  protocol/index
+  state/index
 
 Sphere REST API
 ---------------

@@ -25,7 +25,7 @@ Adds a channel to a device
 
 **Return Value**
 
-nullTODO: Success value?
+null TODO: Success value?
 
 .. _apireference_service_device-model_methods_delete:
 
@@ -40,7 +40,7 @@ Deletes a Device
 
 **Return Value**
 
-:ref:`device.id <apireference_model_device>`
+:ref:`device.id <apireference_model_device>` 
 
 .. _apireference_service_device-model_methods_fetch:
 
@@ -55,5 +55,5 @@ Retrieves a Device
 
 **Return Value**
 
-:ref:`device <apireference_model_device>`
+:ref:`device <apireference_model_device>` 
 
