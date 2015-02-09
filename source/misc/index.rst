@@ -9,3 +9,4 @@ This section contains miscellaneous information for Sphere, to be recategorised 
   devkit/index
   howtos/index
   libraries/index
+  releasechannels/index
