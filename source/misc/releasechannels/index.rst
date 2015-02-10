@@ -57,7 +57,7 @@ APT Source:
 
 iOS Release: *TestFlight invitations* ("Beta" group users should have access, otherwise ping us for access)
 
-Android Release: `Beta Google Group <https://groups.google.com/forum/#!forum/ninjablocks>`_ (open to join) gets access to `Beta Releases on the Play Store <https://play.google.com/apps/testing/com.ninjablocks.com.sphere>`_
+Android Release: Join the `Beta Google Group <https://groups.google.com/forum/#!forum/ninjablocks>`_ (open to join), then get the app from: `Beta Releases on the Play Store <https://play.google.com/apps/testing/com.ninjablocks.com.sphere>`_
 
 unstable
 --------
