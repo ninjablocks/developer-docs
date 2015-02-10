@@ -3,7 +3,7 @@ Resetting your Sphere
 
 1. Hold down the reset button until the led matrix changes to desired color (Green, Yellow, or Red)
 	* Green - Device Restart
-	* Yellow - Clear User Date
+	* Yellow - Clear User Data
 	* Red - Factory Reset
 	
 2. Release the reset button
