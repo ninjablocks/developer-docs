@@ -5,7 +5,7 @@ Resetting your Sphere
 	* Green - Device Restart
 	* Yellow - Clear User Data
 	* Red - Factory Reset
-	
+
 2. Release the reset button
 3. For a factory reset, be patient! This process will take about 20 minutes.
-4. After Reset, you will need to repeat the steps in `Configure Your Sphere </introduction/index.rst>`_
+4. After Reset, you will need to repeat the steps in `Configure Your Sphere </introduction/>`_
