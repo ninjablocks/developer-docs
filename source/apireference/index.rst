@@ -6,13 +6,13 @@ Core Concepts
 
 The Ninja Sphere has a slightly different view to typical Internet of Things systems, including the previous Ninja Blocks platform. Instead of everything revolving around a **Device**, you instead control conceptual **Things**. A *Thing* is bound to a device, but could be swapped out later - your *reading lamp* Thing might start with a *ZigBee Socket*, but later you change it to be a *LIFX* - no problem, all your presets, rules and intelligence still work, you now just have color control as well.
 
-* :doc:`concepts/thing` - A conceptual object that you want to control, e.g. *Sally's Phone*, *Living Room Heater*.
-
-* :doc:`concepts/device` - A physical device, which can be promoted to a Thing, e.g. *iPhone 54:32:10:98:76*.
-
 * :doc:`concepts/site` - A house or building where one or more Ninja devices are installed, e.g. *Home at 123 Fake St*.
 
 * :doc:`concepts/room` - A room or area inside a Site that contains Things, e.g. *Living Room*, *Hallway*.
+
+* :doc:`concepts/thing` - A conceptual object that you want to control, e.g. *Sally's Phone*, *Living Room Heater*.
+
+* :doc:`concepts/device` - A physical device, which can be promoted to a Thing, e.g. *iPhone 54:32:10:98:76*.
 
 * :doc:`concepts/protocol` - The language we speak, and the methods we can call, to control part of device's functionality in Ninja land, e.g. *on-off* for a switch or light, *notification* for an iPhone, Android, XBMC/Kodi, etc showing a notification.
 
@@ -25,10 +25,10 @@ The Ninja Sphere has a slightly different view to typical Internet of Things sys
 .. toctree::
   :hidden:
 
-  concepts/thing
-  concepts/device
   concepts/site
   concepts/room
+  concepts/thing
+  concepts/device
   concepts/channel
   concepts/protocol
   concepts/driver
@@ -45,10 +45,11 @@ App & Driver Interfaces
   protocol/index
   state/index
 
-Sphere REST API
----------------
+Sphere API Services
+-------------------
 
 .. toctree::
   :maxdepth: 2
 
   restapi/index
+  cloudrpc/index
