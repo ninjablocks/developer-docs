@@ -1,23 +1,35 @@
 Device Channels
 ===============
 
-A Device Channel is the actuation component of Device, and devices can have many channels. Each channel implements a protocol, but any optional attributes that are supported must be listed in ‘supportedProperties’.
+A Device Channel is the actuation and state component of Device, and devices can have many channels. Each channel implements a protocol, and implements a subset of supported methods, and emits a subset of supported events.
 
-Take a Hue lightbulb for example. In the Ninja model, the bulb itself isn't actuated, but the channel associated with the bulb is actuated. This channel is linked to the `light protocol <https://github.com/ninjablocks/schemas/blob/master/protocol/light.json>`_ which has properties ``hue``, ``saturation``, ``brightness``, ``alert``, and ``duration``.
+Take a Philips Hue bulb for example. In the Ninja model, the bulb itself isn't actuated, but the channel associated with the bulb is actuated. One channel is specified to use the :ref:`on-off protocol <apireference_protocol_on-off>`_, which supports methods like `set(bool)`, and emits a boolean state. This same protocol is also used by a Ninja Smart Socket and any other device that supports the concept of "turning on and off".
 
-::
+Of course, a light like the Philips Hue exposes many more channels with different protocols, such as *brightness*, *color* (if it's a color-changing model), *identify* (to help the user work out which light is which).
 
-  {
-    "deviceId": "hue:0001bc57abc7021",
-    "channelId": "default",
-    "protocol": "http://ninjablocks.com/protocols/light",
-    "supportedProperties": ["hue","saturation","brightness","alert","duration"]
-  }
+Example Channel as exposed by the REST API as part of a Thing (embedded in a Device object):
 
-This model allows us to associate single devices to multiple channels which provides a great deal of flexibility.
+.. code-block:: javascript
 
-**Examples (device id - channel id)**
-
-* ``bluetooth:0017abc5c2519c`` - ``alert`` (a StickNFind)
-* ``dropbox:18282614451`` - ``saveFile`` (DropBox account)
-* ``xbmc:192.168.1.2:3000`` - ``popupMessage`` (an XBMC instance)
+	"channels": [
+		...,
+		{
+			"topic": "$device/e43820b2f3/channel/1-6-in",
+			"schema": "http://schema.ninjablocks.com/protocol/on-off",
+			"supportedMethods": [
+				"turnOff",
+				"turnOn",
+				"set",
+				"toggle"
+			],
+			"supportedEvents": [ ],
+			"id": "1-6-in",
+			"protocol": "on-off",
+			"deviceId": "e43820b2f3",
+			"lastState": {
+				timestamp: 1423309028633,
+				payload: false
+			}
+		},
+		...
+	]
