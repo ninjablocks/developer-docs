@@ -123,4 +123,4 @@ This means the following RPC will be sent to the topic ``some/mqtt/topic`` if th
 		"id": "..."
 	}
 
-The application is then able to subscribe to this topic and perform some action. Note that this response is **always** sent via the Sphere Cloud, and only a limited subset of topics are bridged back down to the device. This will be documented further soon, and more so when the bridge code is open sources, but for now ping us on the forums for details if you are going to implement something using push notifications, we'll be glad to help.
+The application is then able to subscribe to this topic and perform some action. Note that this response is **always** sent via the Sphere Cloud, and only a limited subset of topics are bridged back down to the device. This will be documented further soon, and more so when the bridge code is open sourced, but for now ping us on the forums for details if you are going to implement something using push notifications, we'll be glad to help.
