@@ -1,4 +1,4 @@
-Push Device Connector To Sphere
+Push Device Driver To Sphere
 ================================
 
 1. Create a new directory in /data/sphere/user-autostart/drivers/ for your driver

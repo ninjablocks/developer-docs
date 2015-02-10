@@ -1,4 +1,4 @@
-Device Connector Developer Guides
+Device Driver Developer Guides
 ==================
 
 .. toctree::
