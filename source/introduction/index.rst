@@ -6,3 +6,4 @@ Developing on Your Sphere
 
   enable-ssh
   directory-structure
+  logging

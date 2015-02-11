@@ -7,5 +7,5 @@ Resetting your Sphere
 	* Red - Factory Reset
 
 2. Release the reset button
-3. For a factory reset, be patient! This process will take about 20 minutes.
+3. For a factory reset, be patient! This process may take about 20 minutes to complete.
 4. After Reset, you will need to repeat the steps in `Configure Your Sphere </introduction/>`_
