@@ -29,7 +29,7 @@ main.go
 	}
 	
 	// Start is called after the ExportApp call is complete.
-	func (a *HelloApp) Start(m *model.Worlds) error {
+	func (a *HelloApp) Start(m *model.World) error {
 		return nil
 	}
 	
@@ -87,8 +87,8 @@ model.go
 		Label  string	`json:"label,omitempty"`
 	}
 
-	// A Worlds object is a collection of Hellos.
-	type Worlds struct {
+	// A World object is a collection of Hellos.
+	type World struct {
 		Version string  `json:"version,omitempty"`
 		Hellos  []Hello `json:"hellos"`
 	}
