@@ -15,7 +15,7 @@ Burn the image
 The latest developer kit image can be downloaded from: `ubuntu_armhf_trusty_norelease_devkit-testing-2014-07-04_1518.img.gz <https://s3-ap-southeast-2.amazonaws.com/ninjablocks-nightly/devkit/ubuntu_armhf_trusty_norelease_devkit-testing-2014-07-04_1518.img.gz>`_
 
 
-For a guide on how to burn this image to the supplied SD card, check out the :doc:`/howtos/burning_an_image` how-to.
+For a guide on how to burn this image to the supplied SD card, check out the :doc:`/misc/howtos/burning_an_image` how-to.
 
 Once you have burnt the image to your SD card, insert the burnt SD card into the developer kit.
 
