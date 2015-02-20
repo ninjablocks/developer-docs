@@ -1,5 +1,5 @@
-Hello World Application
-========================
+Hello World Driver
+==================
 
 1. Download the Ninja Sphere Go library
 
