@@ -6,3 +6,4 @@ Hardware Guides
 
 
   sphere-factory-reset
+  devkit-factory-reset
