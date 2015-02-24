@@ -1,5 +1,5 @@
-Hello World Application
-========================
+Hello World Driver
+==================
 
 1. Download the Ninja Sphere Go library
 
@@ -28,12 +28,12 @@ main.go
 	
 	func main() {
 	
-		conn, err := ninja.Connect("com.ninjablocks.zigbee")
+		conn, err := ninja.Connect("com.hello.world")
 		if err != nil {
 			log.Fatalf("Could not connect to MQTT: %s", err)
 		}
 	
-		bus, err := conn.AnnounceDriver("com.ninjablocks.zigbee", "driver-zigbee", getCurDir())
+		bus, err := conn.AnnounceDriver("com.hello.world", "driver-hello-world", getCurDir())
 		if err != nil {
 			log.Fatalf("Could not get driver bus: %s", err)
 		}
@@ -59,14 +59,14 @@ package.json
 .. code-block:: json
 
 	{
-	  "name": "driver-zigbee",
+	  "name": "driver-hello-world",
 	  "version": "0.1.0",
-	  "description": "Ninja Sphere - Zigbee Driver",
+	  "description": "Ninja Sphere - Hello World Driver",
 	  "main": "main.go",
 	  "scripts": {
 	    "test": "echo \"Error: no test specified\" && exit 1"
 	  },
-	  "author": "Elliot Shepherd <elliot@ninjablocks.com>",
+	  "author": "First Last <first.last@gmail.com>",
 	  "license": "MIT",
 	  "topics": {},
 	  "maxMemory": 10
