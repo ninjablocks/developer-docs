@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Hello World Driver
 ==================
+=======
+Hello World Application
+========================
+>>>>>>> develop
 
 1. Download the Ninja Sphere Go library
 
@@ -28,12 +33,20 @@ main.go
 	
 	func main() {
 	
+<<<<<<< HEAD
 		conn, err := ninja.Connect("com.hello.world")
+=======
+		conn, err := ninja.Connect("com.ninjablocks.zigbee")
+>>>>>>> develop
 		if err != nil {
 			log.Fatalf("Could not connect to MQTT: %s", err)
 		}
 	
+<<<<<<< HEAD
 		bus, err := conn.AnnounceDriver("com.hello.world", "driver-hello-world", getCurDir())
+=======
+		bus, err := conn.AnnounceDriver("com.ninjablocks.zigbee", "driver-zigbee", getCurDir())
+>>>>>>> develop
 		if err != nil {
 			log.Fatalf("Could not get driver bus: %s", err)
 		}
@@ -59,14 +72,24 @@ package.json
 .. code-block:: json
 
 	{
+<<<<<<< HEAD
 	  "name": "driver-hello-world",
 	  "version": "0.1.0",
 	  "description": "Ninja Sphere - Hello World Driver",
+=======
+	  "name": "driver-zigbee",
+	  "version": "0.1.0",
+	  "description": "Ninja Sphere - Zigbee Driver",
+>>>>>>> develop
 	  "main": "main.go",
 	  "scripts": {
 	    "test": "echo \"Error: no test specified\" && exit 1"
 	  },
+<<<<<<< HEAD
 	  "author": "First Last <first.last@gmail.com>",
+=======
+	  "author": "Elliot Shepherd <elliot@ninjablocks.com>",
+>>>>>>> develop
 	  "license": "MIT",
 	  "topics": {},
 	  "maxMemory": 10
