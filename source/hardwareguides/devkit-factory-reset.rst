@@ -17,8 +17,8 @@ This step only needs to be done the first time you are resetting the devkit with
 
 Steps
 ~~~~~
-1. Download the [Ninja Sphere NAND image](https://firmware.sphere.ninja/latest/ninja-var-am335x-v1.0.19-e0530dcf.img.gz). The expected sha1 of the file is listed in the associated [SHA1 file](https://firmware.sphere.ninja/latest/ninja-var-am335x-v1.0.19-e0530dcf.img.gz.sha1).
-2. Using the image, re-image a micro SD card that has at least 3GB of capacity using the steps in ["Burning an Image"](https://developers.ninja/misc/howtos/burning_an_image.html). If you like, you can use the same SD card that will eventually be used to store the Ninja Sphere Devkit runtime.
+1. Download the Ninja Sphere NAND image (https://firmware.sphere.ninja/latest/ninja-var-am335x-v1.0.19-e0530dcf.img.gz). The expected sha1 of the file is listed in the associated SHA1 file (https://firmware.sphere.ninja/latest/ninja-var-am335x-v1.0.19-e0530dcf.img.gz.sha1).
+2. Using the image, re-image a micro SD card that has at least 3GB of capacity using the steps in  "Burning an Image" (https://developers.ninja/misc/howtos/burning_an_image.html). If you like, you can use the same SD card that will eventually be used to store the Ninja Sphere Devkit runtime.
 3. Remove the power cable from the Ninja Sphere Devkit
 4. Install the micro SD card into the micro SD card reader on the Ninja Sphere Devkit
 5. Reconnect the power cable to the Ninja Sphere Devkit
@@ -34,8 +34,9 @@ These steps will re-image your SD card with a new version of the Ninja Sphere De
 
 Steps
 ~~~~~
-1. Download the [Ninja Sphere Devkit factory image](https://firmware.sphere.ninja/latest/ubuntu_armhf_trusty_norelease_devkit-stable.img.gz). The expected sha1 of the file is listed in the [manifest](https://firmware.sphere.ninja/latest/ubuntu_armhf_trusty_norelease_devkit-stable.manifest).
-2. Using the image, re-image a micro SD card that has at least 3GB of capacity using the steps in ["Burning an Image"](https://developers.ninja/misc/howtos/burning_an_image.html)
+
+1. Download the Ninja Sphere Devkit factory image (https://firmware.sphere.ninja/latest/ubuntu_armhf_trusty_norelease_devkit-stable.img.gz). The expected sha1 of the file is listed in the manifest (https://firmware.sphere.ninja/latest/ubuntu_armhf_trusty_norelease_devkit-stable.manifest).
+2. Using the image, re-image a micro SD card that has at least 3GB of capacity using the steps in "Burning an Image" (See - https://developers.ninja/misc/howtos/burning_an_image.html)
 3. Remove the power cable from the devkit
 4. Install the micro SD card into the micro SD card reader on the devkit
 5. Reconnect the power cable to the devkit
