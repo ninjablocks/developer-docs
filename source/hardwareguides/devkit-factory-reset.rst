@@ -35,7 +35,7 @@ These steps will re-image your SD card with a new version of the Ninja Sphere De
 Steps
 ~~~~~
 
-* These instructions are current as of 2015-03-10 06:00:00 UTC.
+These instructions are current as of 2015-03-10 06:00:00 UTC.
 
 1. Download the Ninja Sphere Devkit factory image (https://firmware.sphere.ninja/latest/ubuntu_armhf_trusty_norelease_devkit-stable.img.gz). The expected sha1 of the file is listed in the manifest (https://firmware.sphere.ninja/latest/ubuntu_armhf_trusty_norelease_devkit-stable.manifest).
 2. Using the image, re-image a micro SD card that has at least 3GB of capacity using the steps in "Burning an Image" (See - https://developers.ninja/misc/howtos/burning_an_image.html)
