@@ -16,7 +16,14 @@ Enable SSH
 	username: ninja
 	password: temppwd
 
-3.  Install ssh for easier access
+3.  Change the default ninja password
 ::
 
-  sudo with-rw bash -c "apt-get update -y && apt-get install -y openssh-server"
+	sudo with-rw passwd ninja  # type the current password once and the new password twice
+
+	# Don't forget the new password - if you do forget it, you will need to factory reset the sphere to recover it.
+
+4.  Install ssh for easier access
+::
+
+	sudo with-rw bash -c "apt-get update -y && apt-get install -y openssh-server"
