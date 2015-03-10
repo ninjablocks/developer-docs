@@ -18,10 +18,11 @@ Enable SSH
 
 3.  Change the default ninja password
 ::
+Before enabling ssh, it is good practice to change the default password of the ninja account to something less well-known, so:
 
 	sudo with-rw passwd ninja  # type the current password once and the new password twice
 
-	# Don't forget the new password - if you do forget it, you will need to factory reset the sphere to recover it.
+Don't forget the new password - if you do forget it, you will need to factory reset the sphere to reset it.
 
 4.  Install ssh for easier access
 ::
