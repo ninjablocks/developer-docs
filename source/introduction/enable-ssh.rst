@@ -10,6 +10,7 @@ Enable SSH
 	# Linux
 	screen /dev/ttyACM0
 
+
 2.  Use default username and password
 ::
 	username: ninja
@@ -18,4 +19,4 @@ Enable SSH
 3.  Install ssh for easier access
 ::
 
-  sudo with-rw bash && bash -c "apt-get update; apt-get install -y openssh-server"
+  sudo with-rw bash -c "apt-get update -y && apt-get install -y openssh-server"
