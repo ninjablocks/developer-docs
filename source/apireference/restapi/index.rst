@@ -19,7 +19,7 @@ Endpoints
 
 The public Sphere cloud is based at: ``https://api.sphere.ninja/rest/v1``
 
-HomeCloud is available on your primary device at: ``http://ninjasphere.local/rest/v1``
+HomeCloud is available on your primary device at: ``http://ninjasphere.local:8000/rest/v1``
 
 Auth
 ----
