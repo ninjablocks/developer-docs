@@ -6,7 +6,7 @@ Enable SSH
 .. code-block:: bash
 
 	# OS X
-	screen /dev/cu.usbmodem*
+	screen /dev/tty.usbmodem*
 	# Linux
 	screen /dev/ttyACM0
 
