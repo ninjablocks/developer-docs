@@ -4,7 +4,7 @@ Reference Docs
 Core Concepts
 -------------
 
-The Ninja Sphere has a slightly different view to typical Internet of Things systems, including the previous Ninja Blocks platform. Instead of everything revolving around a **Device**, you instead control conceptual **Things**. A *Thing* is bound to a device, but could be swapped out later - your *reading lamp* Thing might start with a *ZigBee Socket*, but later you change it to be a *LIFX* - no problem, all your presets, rules and intelligence still work, you now just have color control as well.
+The Ninja Sphere has a slightly different view to typical Internet of Things systems, including the previous Ninja Blocks platform. Instead of everything revolving around a **Device**, you instead control conceptual **Things**. A *Thing* is bound to a device, but could be swapped out later - your *reading lamp* Thing might start with a *ZigBee socket*, but later you change it to be a *LIFX bulb* - no problem, all your presets, rules and intelligence still work, you now just have color control as well.
 
 * :doc:`concepts/site` - A house or building where one or more Ninja devices are installed, e.g. *Home at 123 Fake St*.
 
@@ -14,7 +14,7 @@ The Ninja Sphere has a slightly different view to typical Internet of Things sys
 
 * :doc:`concepts/device` - A physical device, which can be promoted to a Thing, e.g. *iPhone 54:32:10:98:76*.
 
-* :doc:`concepts/protocol` - The language we speak, and the methods we can call, to control part of device's functionality in Ninja land, e.g. *on-off* for a switch or light, *notification* for an iPhone, Android, XBMC/Kodi, etc showing a notification.
+* :doc:`concepts/protocol` - The language we speak, and the methods we can call, to control part of devices' functionality in Ninja land, e.g. *on-off* for a switch or light, *notification* for an iPhone, Android, XBMC/Kodi, etc. showing a notification.
 
 * :doc:`concepts/channel` - A binding between a device and a protocol, e.g. the *LIFX Bulb* and the *Philips Hue* have separate  channels using protocols such as *on-off*, *brightness*, *color*.
 

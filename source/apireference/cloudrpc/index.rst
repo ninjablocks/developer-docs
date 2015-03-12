@@ -1,7 +1,7 @@
 Cloud RPC Services
 ==================
 
-The Ninja Sphere platform makes extensive use of MQTT, both for local communication between components running on a Spheramid, but also between the Spheramid and the Sphere Cloud.
+The Ninja Sphere platform makes extensive use of *MQTT*, both for local communication between components running on a Spheramid, and between the Spheramid and the Sphere Cloud.
 
 Certain topics on the *local bus* are bridged to the *cloud bus*, allowing not only for state and actuations to flow to the cloud and back, but also for asyncronous RPC requests to be performed against cloud services.
 
