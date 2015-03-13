@@ -5,7 +5,7 @@ Hello World Driver
 
 	* `Ninja Sphere Go library <https://github.com/ninjasphere/go-ninja>`_
 
-2. Below are the basic files needed to run your application on the NinjaSphere
+2. Below are the basic files needed to run your application on the Ninja Sphere
 
 main.go
 

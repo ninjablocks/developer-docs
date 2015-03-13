@@ -9,7 +9,12 @@ Enable SSH
 	screen /dev/tty.usbmodem*
 	# Linux
 	screen /dev/ttyACM0
-
+	# Windows
+	- use PuTTY and select the "Serial" option
+	- connect to the COM port number labelled "ELMO GMAS" in Windows Device Manager e.g. COM7
+	- use Speed 9600
+	- Press OPEN
+	- Press ENTER when black terminal screen appears
 
 2.  Use default username and password
 ::

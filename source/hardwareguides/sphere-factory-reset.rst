@@ -1,11 +1,11 @@
 Resetting your Sphere
-=========================
+=====================
 
-1. Hold down the button on the base of the sphere until the led matrix changes to desired color (Grey, Green, Yellow, or Red)
+1. Hold down the button on the base of the sphere until the LED matrix changes to desired color (Grey, Green, Yellow, or Red)
     * Grey - Device Halt
 	* Green - Device Restart
 	* Yellow - Unpair Device
-	* Red - Factory Reset - Only use when instructed by support staff.  If interrupted, this may cause damage to your device
+	* Red - Factory Reset - Only use when instructed by support staff. If interrupted, this may cause damage to your device.
 
 2. Release the reset button. If you decide to cancel the selected action after releasing the button you have a small amount of time to cancel the action by pressing the button again while the selected colour fades. The LED matrix should flash white to indicate that the action has, indeed, been cancelled.
 
