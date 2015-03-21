@@ -26,7 +26,7 @@ ninja.log is used by Go code.  It is very useful to see what is going on in the 
 	
 	.. code-block:: bash
 
-		sudo vi /etc/rsyslog.d/10-ninja.conf
+		sudo with-rw nano /etc/rsyslog.d/10-ninja.conf
 
 
 /var/log/ninjasphere.log
