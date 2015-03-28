@@ -12,7 +12,7 @@ Enable SSH
 	# Windows
 	- use PuTTY and select the "Serial" option
 	- connect to the COM port number labelled "ELMO GMAS" in Windows Device Manager e.g. COM7
-	- use Speed 9600
+	- use Speed 115200
 	- Press OPEN
 	- Press ENTER when black terminal screen appears
 
