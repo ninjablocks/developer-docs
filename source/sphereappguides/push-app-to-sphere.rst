@@ -7,7 +7,7 @@ Push App to Sphere
 
 	mkdir -p /data/sphere/user-autostart/apps/app-foobar
 
-2. Directory name and binary name should have the same name. package.json contains some metadata about the application.
+2. The directory name and binary name should have the same name. package.json contains some metadata about the application.
 
 ::
 
@@ -15,7 +15,7 @@ Push App to Sphere
 	Binary: app-foobar
 	JSON: package.json
 
-3. Build for ARM and SCP your binary and package.json files to the new app directory
+3. On your development machine, build the app for ARM and then copy (SCP) your binary and package.json files to the new app directory.
 
 .. code-block:: bash
 

@@ -5,13 +5,13 @@ When changes are made to the Ninja Sphere code base, they go through a release p
 
 **Switching to a release channel other than Stable is likely to cause issues and may require a factory reset *or worse* to recover!**
 
-A summary of a typical path from commiting code to the binary shipping to a Sphere is listed here. Initially, source goes through a *source code Git flow* (note that the Git flow sometimes changes slightly depending on the project):
+A summary of a typical path from committing code to the binary shipping to a Sphere is listed here. Initially, source goes through a *source code Git flow* (note that the Git flow sometimes changes slightly depending on the project):
 
 * **feature branches** and **forks** on GitHub: This is the place where experiments and in-progress features happen.
 * **develop branch** of the main repo: Sometimes used to collect features together before delivering to devices.
-* **master branch** of the main repo: The latest code that goes through the binary release process
+* **master branch** of the main repo: The latest code that goes through the binary release process.
 
-Once code lands in an official *master branch*, it is immediately built on a CI (Continuous Integration) server and an APT (Advanced Packaging Tool)  package is created, at which point the *binary release flow* begins (note that only *binaries* move through this process; source code changes become *new packages*):
+Once code lands in an official *master branch*, it is immediately built on a CI (Continuous Integration) server and an APT (Advanced Packaging Tool) package is created, at which point the *binary release flow* begins (note that only *binaries* move through this process; source code changes become *new packages*):
 
 * **unstable**: Very likely broken and little effort is made to ensure upgrades are seamless. Used internally by Ninja staff where we can recover. **Not recommended for external developers**
 * **testing**: Once a particular package, or set of packages, is deemed to be stable enough that no permanent damage would be done to user data and no regressions on functionality have occured, a package is moved to testing. **For developers who want bleeding edge, possibly breaking, changes**
