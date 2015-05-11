@@ -3,13 +3,16 @@ Enable SSH
 
 1.  Connect to your sphere using USB
 
-.. code-block:: bash
+*OS X*::
 
-	# OS X
 	screen /dev/tty.usbmodem*
-	# Linux
+
+*Linux*::
+
 	screen /dev/ttyACM0
-	# Windows
+
+*Windows*::
+
 	- use PuTTY and select the "Serial" option
 	- connect to the COM port number labelled "ELMO GMAS" in Windows Device Manager e.g. COM7
 	- use Speed 115200
@@ -35,3 +38,9 @@ Don't forget the new password - if you do forget it, you will need to factory re
 ::
 
 	sudo with-rw bash -c "apt-get update -y && apt-get install -y openssh-server"
+
+5.  You can then ssh from your Terminal program, e.g.
+::
+
+	ssh ninjasphere.local -l ninja
+
